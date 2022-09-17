@@ -26,6 +26,8 @@ public class Question01 {
 		//System.out.printf("\nYour Income Tax: R$ %0.2f", taxValue);
 		
 		System.out.println(taxValue);
+		
+		scanner.close();
 	}
 	
 	public static double calcIncomeTax(double salaryMin, int dependents, double salary, double tax) {

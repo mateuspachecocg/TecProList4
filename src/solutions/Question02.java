@@ -20,6 +20,8 @@ public class Question02 {
 		double netPrice = calcRentTool(day, type, priceRent);
 		
 		System.out.printf("RENT NET VALUE: U$ %.2f", netPrice);
+		
+		scanner.close();
 	}
 	
 	// toolType: used or new
