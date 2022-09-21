@@ -4,7 +4,7 @@ public class Question03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int vtr[] = { 1, 3, 4, 7, 8, 9, -45, -64, 54, 90, 12, 55, 11, -3};
+		int vtr[] = { 1, 3, 4, 7, 8, 9, -45, -64, 54, -90, 12, -55, 11, -3};
 		showTipeOfNumber(vtr);
 		
 		System.out.println();
